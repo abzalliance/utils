@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# Функція для виведення роздільної лінії
+# Function to print a delimiter line
 function printDelimiter {
   echo "==========================================="
 }
 
-# Функція для виведення тексту фіолетовим кольором з жирним шрифтом
+# Function to print text in purple with bold formatting
 function printPurple {
   echo -e "\e[1m\e[35m${1}\e[0m"
 }
 
-# Функція для відображення логотипу
+# Function to display the logo
 function printLogo {
   bash <(curl -s "https://raw.githubusercontent.com/abzalliance/logo/master/logo.sh")
 }
